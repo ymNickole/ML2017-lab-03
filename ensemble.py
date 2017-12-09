@@ -19,7 +19,7 @@ class AdaBoostClassifier:
     def fit(self,X,y):
         '''Build a boosted classifier from the training set (X, y).
 
-        Returns:
+        Args:
             X: An ndarray indicating the samples to be trained, which shape should be (n_samples,n_features).
             y: An ndarray indicating the ground-truth labels correspond to X, which shape should be (n_samples,1).
         '''
